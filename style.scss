@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+#header {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+}
+#title {
+    width: 50%;
+    border: 1px solid red;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .8rem;
+
+}
+#nav {
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+#menu {
+    border: 1px solid red;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#mainPanel {
+    border: 1px solid grey;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: .7rem;
+}
+.tab {
+    border: 1px solid grey;
+    width: 25%;
+    text-align: center;
+    padding: .3rem;
+    margin: 0 .4rem;
+}
+.selectedTab {
+    background-color: #ddd;
+}
+.cards {
+    display: flex;
+    border: 1px solid pink;
+}
+.card {
+    border: 1px solid orange;
+    margin: 1rem 0;
+}
+.left,
+.right {
+    padding: .4rem 1rem;
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.left h1,
+.right h1 {
+    border: 1px solid green;
+    padding: .3rem;
+    border-radius: 10px;
+    margin: .5rem;
+}
+.left p,
+.right p {
+    margin: .5rem;
+}
+#footer {
+    text-align: center;
+    padding: .7rem 0;
+    font-weight: 700;
+}
